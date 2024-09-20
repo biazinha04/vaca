@@ -1,61 +1,5 @@
-.botaoroberto {
-    display: flex;
-    margin: auto;
    
-    text-align: center;
-    flex-direction: column-reverse;
-  
-  }
-
-  p {
-    color: #070808;
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.1;
-}
-
-
-  H1{
-    text-align: center;
-    padding: 5px;
-  margin-top: 3%;
-   border: 3px solid #6c40e4;
-   display: block; padding: 6px;
-  
-  }
-  .gradient{
-background-image: linear-gradient( to bottom, rebeccapurple, steelblue, tuquoise);
-color: black;
-background-clip: text;
--webkit-background-clip: text;
- 
--webkit-text-fill-color: transparent;
-}
-
-  body {
-    min-height: 100%;
-    position: relative;
-    padding-bottom: 3rem;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    width: 100%;
-    background: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  }
-
-  main {
-    text-align: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: large;
-    margin: 2%;
-    padding: 5px;
-    color: #021818;
-  }
-
-  button {
+button {
     --border-radius: 15px;
     --border-width: 4px;
     appearance: none;
@@ -82,14 +26,14 @@ background-clip: text;
     padding: var(--border-width);
     border-radius: var(--border-radius);
     background-image: conic-gradient(
-      #2428f5,
-      #04279969,
-      #8105f5,
-      #b30eff,
-      #e440bb,
-      #655adc,
-      #488cfb
-    );
+       #488cfb,
+       #29dbbc,
+       #ddf505,
+       #ff9f0e,
+       #e440bb,
+       #655adc,
+       #488cfb
+     );
     -webkit-mask-image: var(--m-i), var(--m-i);
     mask-image: var(--m-i), var(--m-i);
     -webkit-mask-origin: var(--m-o);
@@ -120,5 +64,3 @@ background-clip: text;
    button:active {
     --border-width: 5px;
    }
-
- 
